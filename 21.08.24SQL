@@ -1,0 +1,15 @@
+```sql
+SELECT * FROM Pets WHERE Age BETWEEN 2 AND 5;
+
+SELECT * FROM Pets WHERE Kind = 'Dog' OR Weight < 5;
+
+SELECT * FROM Pets WHERE Name LIKE 'B%';
+
+SELECT * FROM Pets WHERE Kind IN ('Dog', 'Cat', 'Rabbit');
+
+SELECT * FROM Pets WHERE Kind = 'Cat' AND Age > 4;
+
+SELECT COUNT(DISTINCT Kind) FROM Pets;
+
+```
+
